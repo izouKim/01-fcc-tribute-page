@@ -1,0 +1,166 @@
+* {
+  font-family: Italianno, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #2b2a2bcc;
+}
+
+/*-------- header ---------------*/
+#img-div {
+  width: 86%;
+  margin: auto;
+  position: relative;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+h1 {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  font-size: 9vw;
+  color: white;
+  font-weight: lighter;
+}
+#img-caption {
+  position: absolute;
+  left: 32%;
+  top: 67%;
+  font-size: 2vw;
+  color: white;
+  font-weight: lighter;
+}
+
+/*------------------ body -----------------*/
+#tribute-info {
+  width: 86%;
+  margin: auto;
+  background-color: #eeeeee;
+}
+h2 {
+  font-family: palatino;
+  text-align: center;
+  margin: 0;
+  padding: 3vw;
+  font-size: 2.6vw;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 0;
+  padding-inline-start: 0px;
+}
+li {
+  font-family: Palatino;
+  line-height: 1.8vw;
+  padding-bottom: 2vw;
+  text-align: left;
+  font-size: 1.4vw;
+}
+
+/*-------------- footer ----------------*/
+.link {
+  width: 86%;
+  margin: auto;
+  padding: 1.2vw 0;
+  text-align: right;
+  font-size: 2.5vw;
+}
+span {
+  color: black;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*-------------- font-resize -----------*/
+@media (max-width: 1000px) {
+  #img-caption {
+    font-size: 1.2em;
+    left: 30%;
+  }
+  li {
+    font-size: 0.87em;
+    line-height: 1.15em;
+  }
+}
+
+@media (max-width: 800px) {
+  #img-caption {
+    font-size: 1.1em;
+    left: 27%;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  .link {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 750px) {
+  ul {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  #img-caption {
+    font-size: 1em;
+    left: 24%;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 42px;
+  }
+  #img-caption {
+    font-size: 0.9em;
+    left: 21%;
+  }
+  ul {
+    width: 76%;
+  }
+  li {
+    font-size: 0.8em;
+    line-height: 1.15em;
+  }
+  .link {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 39px;
+  }
+  #img-caption {
+    font-size: 0.8em;
+    left: 18%;
+  }
+  h2 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 36px;
+  }
+  #img-caption {
+    font-size: 0.7em;
+    left: 15%;
+  }
+  li {
+    font-size: 0.7em;
+    line-height: 1.15em;
+  }
+}
